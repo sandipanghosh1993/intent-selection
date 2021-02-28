@@ -3,6 +3,11 @@ import { ListGroup, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { checkBoxState } from './IntentListRenderer';
 import { IntentListItemProps } from '../interfaces/types';
 
+/**
+ * @function IntentListItem
+ *
+ * Component to render the intent list item
+ */
 const IntentListItem: React.FC<IntentListItemProps> = (
   props: IntentListItemProps
 ) => {

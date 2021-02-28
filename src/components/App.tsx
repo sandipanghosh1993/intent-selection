@@ -3,6 +3,11 @@ import IntentList from './IntentList';
 import InetentDetails from './IntentDetails';
 import { Container, Row, Col } from 'react-bootstrap';
 
+/**
+ * @function App
+ *
+ * Root component
+ */
 const App: React.FC = () => {
   return (
     <Container>

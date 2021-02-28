@@ -11,6 +11,11 @@ import { bindActionCreators } from 'redux';
 import IntentListRenderer from './IntentListRenderer';
 import { IntentProps, IntentListProps } from '../interfaces/types';
 
+/**
+ * @function IntentList
+ *
+ * Component to fetch data for the intent list
+ */
 const IntentList: React.FC<IntentListProps> = (props: IntentListProps) => {
   const { fetchIntents, ...otherProps } = props;
 

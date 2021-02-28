@@ -13,6 +13,11 @@ export const checkBoxState = Object.freeze({
   MIXED: 'mixed'
 });
 
+/**
+ * @function IntentListRenderer
+ *
+ * Component to render the intent list
+ */
 const IntentListRenderer: React.FC<IntentListRendererProps> = (
   props: IntentListRendererProps
 ) => {

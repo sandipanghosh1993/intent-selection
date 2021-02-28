@@ -9,6 +9,9 @@ import { IntentProps } from '../interfaces/types';
 
 const intents: IntentProps[] = require('../data/intents.json');
 
+/**
+ * Action creator to fetch all intents
+ */
 export function fetchIntents() {
   return {
     type: FETCH_INTENTS,
@@ -18,6 +21,9 @@ export function fetchIntents() {
   };
 }
 
+/**
+ * Action creator to select a single intent
+ */
 export function selectIntent(intent: IntentProps) {
   return {
     type: SELECT_INTENT,
@@ -27,6 +33,9 @@ export function selectIntent(intent: IntentProps) {
   };
 }
 
+/**
+ * Action creator to unselect a single intent
+ */
 export function unselectIntent(intent: IntentProps) {
   return {
     type: UNSELECT_INTENT,
@@ -36,6 +45,9 @@ export function unselectIntent(intent: IntentProps) {
   };
 }
 
+/**
+ * Action creator to select all intents
+ */
 export function selectAllIntent() {
   return {
     type: SELECT_ALL_INTENT,
@@ -45,6 +57,9 @@ export function selectAllIntent() {
   };
 }
 
+/**
+ * Action creator to unselect all intents
+ */
 export function unselectAllIntent() {
   return {
     type: UNSELECT_ALL_INTENT,

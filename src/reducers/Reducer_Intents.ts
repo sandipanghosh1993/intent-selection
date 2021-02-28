@@ -1,6 +1,9 @@
 import { FETCH_INTENTS } from '../actions/types';
 import { IntentProps } from '../interfaces/types';
 
+/**
+ * Reducer to handle intent list data
+ */
 export default function(
   state: IntentProps[] = [],
   action: {

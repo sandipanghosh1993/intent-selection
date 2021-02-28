@@ -3,6 +3,11 @@ import { Container } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { IntentProps, IntentDetailsProps } from '../interfaces/types';
 
+/**
+ * @function IntentDetails
+ *
+ * Component to render selected intent details
+ */
 const IntentDetails: React.FC<IntentDetailsProps> = (
   props: IntentDetailsProps
 ) => {

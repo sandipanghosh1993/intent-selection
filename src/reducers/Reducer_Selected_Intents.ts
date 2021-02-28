@@ -7,6 +7,9 @@ import {
 } from '../actions/types';
 import { IntentProps } from '../interfaces/types';
 
+/**
+ * Reducer to handle selected/unselected intent data
+ */
 export default function(
   state: { [key: string]: IntentProps } = {},
   action: {
