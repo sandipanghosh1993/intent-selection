@@ -21,7 +21,7 @@ export const checkBoxState = Object.freeze({
 const IntentListRenderer: React.FC<IntentListRendererProps> = (
   props: IntentListRendererProps
 ) => {
-  const [checkState, setCheckState] = useState('unchecked');
+  const [checkState, setCheckState] = useState(checkBoxState.UNCHECKED);
   const checkRef: any = useRef();
 
   useEffect(() => {
